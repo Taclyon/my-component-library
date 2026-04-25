@@ -1,40 +1,20 @@
 # Button Component
 
-The Button component is a flexible and reusable element designed to trigger actions.
+```markdown
+# Componente Button
+
+O componente `Button` é um elemento flexível e reutilizável projetado para disparar ações. Ele suporta várias variantes visuais, tamanhos e estados, garantindo consistência em toda a sua aplicação.
 
 ## 📋 Props
 
-| Prop | Type | Default | Description |
+| Prop | Tipo | Padrão | Descrição |
 |---|---|---|---|
-| label | string | required | The text label to display. |
-| variant | string | primary | The visual style. |
-| size | string | md | The scale of the button. |
-| disabled | boolean | false | If true, the button is non-interactive. |
+| label | string | required | O texto a ser exibido no botão. |
+| variant | string | primary | O estilo visual do botão. |
+| size | string | md | O tamanho do botão. |
+| disabled | boolean | false | Se true, o botão não é interativo. |
 
-## 💡 Usage
+## 💡 Uso
 
 ```tsx
-<Button label="Click me" />
-
-
-Visual Variants
-
-<Button label="Primary Action" variant="primary" />
-<Button label="Secondary Action" variant="secondary" />
-
-
-Event Handling
-
-<Button 
-  label="Save Changes" 
-  onClick={() => alert("Button clicked!")} 
-/>
-
-🛠 Customizing Styles
-This component uses tailwind-merge internally, allowing you to pass custom Tailwind classes:
-
-TypeScript
-<Button 
-  label="Custom Style" 
-  className="bg-purple-600 hover:bg-purple-700 rounded-full" 
-/>
+<Button label="Clique aqui" />
