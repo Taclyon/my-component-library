@@ -21,6 +21,8 @@ import { Button, Input, Card } from "@/components/ui";
 📁 Documentação
 À medida que esta biblioteca cresce, organizamos a documentação detalhada de cada componente no diretório docs/:
 
+* [Getting-started Component](docs/getting-started.md)
+
 * [Button Component](docs/button.md)
 
 * [Input Component](docs/input.md)
